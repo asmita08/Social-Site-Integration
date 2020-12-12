@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -102,7 +103,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     }
+
+
 
     private void signIn() {
 
